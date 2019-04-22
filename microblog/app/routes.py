@@ -21,13 +21,13 @@ def index():
             'body': 'Записываемся на ноготочки'
         },
 
-        {
+        {git init
             'author': {'username': 'Даша'},
             'body': 'Где все?'
         },
         {
             'author': {'username': 'Наташа'},
-            'body': 'Я пе
+            'body': 'Я пеgit pull upstream maste
     ]
     return render_template('index.html', title='Home', posts=posts)
 @app.route('/login', methods=['GET', 'POST'])
